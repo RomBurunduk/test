@@ -1,22 +1,22 @@
 #include <iostream>
 #include <fstream>
-#include <string>
-#include <math.h>
+#include <cmath>
 using namespace std;
 
 int main() {
-    string as,bs;
-    double a,b;
-    ofstream fout("/Users/romburunduk/Documents/polar point/polar point/angle1.out.txt");
-    ifstream fin("/Users/romburunduk/Documents/polar point/polar point/angle1.in.txt");
-    fin>>as>>bs;
-    a=atof(as.c_str());
-    b=atof(bs.c_str());
-    if (a!=0) {
-        fout<<abs(atan(b/a));
-    } else{
-        fout<<M_PI/2;
+    const double PI = 3.141592653589793;
+    double a,b,c;
+    ofstream fout("angle1.out");
+    ifstream fin("angle1.in");
+    fin>>a>>b;
+    
+    c=atan2(b,a);
+    if (c<0) {
+        c+=2*PI;
     }
+    fout.precision(10);
+    fout<<c;
+    
     fin.close();
     fout.close();
 }
