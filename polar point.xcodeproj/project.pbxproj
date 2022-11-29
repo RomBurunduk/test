@@ -23,10 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C7871F0B2935EC0D00B8A059 /* angle1.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = angle1.in; sourceTree = "<group>"; };
+		C7871F0C2935EC2600B8A059 /* angle1.out */ = {isa = PBXFileReference; lastKnownFileType = text; path = angle1.out; sourceTree = "<group>"; };
 		C7BDFC00293200DB002D5CC9 /* polar point */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "polar point"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7BDFC03293200DB002D5CC9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		C7BDFC0B29323748002D5CC9 /* angle1.in.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = angle1.in.txt; sourceTree = "<group>"; };
-		C7BDFC0C2932375C002D5CC9 /* angle1.out.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = angle1.out.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				C7BDFC03293200DB002D5CC9 /* main.cpp */,
-				C7BDFC0B29323748002D5CC9 /* angle1.in.txt */,
-				C7BDFC0C2932375C002D5CC9 /* angle1.out.txt */,
+				C7871F0B2935EC0D00B8A059 /* angle1.in */,
+				C7871F0C2935EC2600B8A059 /* angle1.out */,
 			);
 			path = "polar point";
 			sourceTree = "<group>";
